@@ -3,91 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oakdale Brook Foundation</title>
+    <title>Oakdale Brook Foundation - Home</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-
-<!-- Header and Navigation -->
-<div id="head-container">
-    <header>
-        <img src="images/oakdale-logo-big.png" alt="Oakdale Brook Foundation Logo">
-    </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="programs.html">Our Programs</a></li>
-            <li><a href="resources.html">Resources</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-    </nav>
-</div>
-
-<!-- Hero section -->
-<div id="hero">
-    <img src="images/Group 14.png" alt="group of people gathered together">
-    <div class="hero-text">
-        <h1>Welcome to Oakdale Brook Foundation</h1>
-        <p>Your journey to empowering education starts here.</p>
+    <!-- Header and Navigation -->
+    <div class="header-container">
+        <header>
+            <a href="index.html"><img src="images/oakdale-logo-big.png" alt="Oakdale Brook Foundation Logo"></a>
+        </header>
+        <button class="hamburger" aria-label="Toggle navigation">&#9776;</button>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="programs.html">Our Programs</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
     </div>
-</div>
 
-<!-- Main Content Container -->
-<div id="container">
-    <!-- Sidebar -->
-    <aside id="sidebar">
-        <h2>About Us</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vehicula metus nec nisi fermentum, a lacinia odio vulputate. Sed id orci felis. Integer convallis libero eu nisi facilisis, ac commodo eros luctus. Morbi ac blandit metus. Aliquam erat volutpat.</p>
-        <h2>Latest News</h2>
-        <ul>
-            <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-            <li><a href="#">Vestibulum vehicula metus nec nisi fermentum.</a></li>
-            <li><a href="#">Sed id orci felis, ac blandit metus.</a></li>
-            <li><a href="#">Integer convallis libero eu nisi facilisis.</a></li>
-            <li><a href="#">Aliquam erat volutpat, sed commodo eros luctus.</a></li>
-        </ul>
-        <h2>Contact Information</h2>
-        <p>
-            <strong>Email:</strong> info@example.com<br>
-            <strong>Phone:</strong> +123 456 7890<br>
-            <strong>Address:</strong> 123 Main Street, Anytown, USA
-        </p>
-    </aside>
-
-    <!-- Main content -->
-    <main id="main-content">
-        <div id="Intro">
-            <img src="images/child-reading.png" alt="a child reading a book">
-            <p><span class="mission">Our mission</span> is to safeguard future generations and transform children's destinies through deep-rooted discipleship, dedicated mentorship, and extensive family support. <br> <span class="vision">Our vision</span> is to cultivate a generation of young people distinguished by their robust identity and resolute purpose. Our core values. The essence of our culture at Oakdale Brook is encapsulated in our ABCDE—Accountability, Birthing new ideas, Connections, Documentation of our journeys, and Empowerment of the youth, parents, and mentors. We are committed to excellence, innovation, building meaningful relationships, chronicling our shared experiences, and fostering growth and fulfillment within our community.</p>        
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="images/Group 14.png" alt="Hero Image">
+        <div class="hero-text">
+            <h1>Welcome to Oakdale Brook Foundation</h1>
+            <p>Your journey of home education and youth mentorship starts here.</p>
         </div>
-    </main>
-    
-    
+    </section>
 
-    <!-- Call to Action -->
-    <div id="cta">
-        <h2>Join Our Community</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.</p>
-        <button>Get Started</button>
+    <!-- Main Content Container -->
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vehicula metus nec nisi fermentum, a lacinia odio vulputate. Sed id orci felis. Integer convallis libero eu nisi facilisis, ac commodo eros luctus. Morbi ac blandit metus. Aliquam erat volutpat.</p>
+            <h2>Latest News</h2>
+            <ul>
+                <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
+                <li><a href="#">Vestibulum vehicula metus nec nisi fermentum.</a></li>
+                <li><a href="#">Sed id orci felis, ac blandit metus.</a></li>
+                <li><a href="#">Integer convallis libero eu nisi facilisis.</a></li>
+                <li><a href="#">Aliquam erat volutpat, sed commodo eros luctus.</a></li>
+            </ul>
+            <h2>Contact Information</h2>
+            <p>
+                <strong>Email:</strong> info@example.com<br>
+                <strong>Phone:</strong> +123 456 7890<br>
+                <strong>Address:</strong> 123 Main Street, Anytown, USA
+            </p>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="content-wrapper">
+                <img src="images/child-reading.png" alt="a boy reading a book" class="side-image">
+                <div class="text-content">
+                    <section class="intro">
+                        <h2>Our Mission</h2>
+                        <p>Our mission is to safeguard future generations and transform children's destinies through deep-rooted discipleship, dedicated mentorship, and extensive family support.</p>
+                    </section>
+                    <section class="vision">
+                        <h2>Our Vision</h2>
+                        <p>Our vision is to cultivate a generation of young people distinguished by their robust identity and resolute purpose. Our core values. The essence of our culture at Oakdale Brook is encapsulated in our ABCDE—Accountability, Birthing new ideas, Connections, Documentation of our journeys, and Empowerment of the youth, parents, and mentors. We are committed to excellence, innovation, building meaningful relationships, chronicling our shared experiences, and fostering growth and fulfillment within our community.</p>
+                    </section>
+                </div>
+            </div>
+        </main>
+
+        <!-- Call to Action -->
+        <div class="cta">
+            <h2>Join Our Community</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.</p>
+            <button>Get Started</button>
+        </div>
+
+        <!-- Ads -->
+        <div class="ads">
+            <h2>Sponsored Content</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <a href="#">Learn More</a>
+        </div>
     </div>
 
-    <!-- Ads -->
-    <div id="ads">
-        <h2>Sponsored Content</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <a href="#">Learn More</a>
-    </div>
-</div>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; Copyright 2024. All Rights Reserved</p>
+        <p><a href="mailto:4chilprotection.cpc2015@gmail.com">4chilprotection.cpc2015@gmail.com</a></p>
+    </footer>
 
-<!-- Footer -->
-<footer>
-    <p>&copy; Copyright 2024. All Rights Reserved</p>
-    <p><a href="mailto:4chilprotection.cpc2015@gmail.com">4chilprotection.cpc2015@gmail.com</a></p>
-</footer>
-
+    <script src="js/scripts.js"></script>
 </body>
 </html>
